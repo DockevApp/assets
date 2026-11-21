@@ -197,6 +197,7 @@
     "adminer": {
       "name": "Adminer",
       "file": "logos/adminer.svg",
+      "hash": "2fae1516be6a",
       "colour": "mono",
       "hex": "#34567C",
       "source": "Simple Icons",
@@ -205,6 +206,7 @@
     "airflow": {
       "name": "Apache Airflow",
       "file": "logos/airflow.svg",
+      "hash": "d16380ede978",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -212,6 +214,7 @@
     "almalinux": {
       "name": "AlmaLinux",
       "file": "logos/almalinux.svg",
+      "hash": "7d042117b7be",
       "colour": "mono",
       "hex": "#000000",
       "source": "Simple Icons",
@@ -220,6 +223,7 @@
     "alpine": {
       "name": "Alpine Linux",
       "file": "logos/alpine.svg",
+      "hash": "c77beadf1277",
       "colour": "mono",
       "hex": "#0D597F",
       "source": "Simple Icons",
@@ -228,6 +232,7 @@
     "appwrite": {
       "name": "Appwrite",
       "file": "logos/appwrite.svg",
+      "hash": "c122a3b6aa3e",
       "colour": "full",
       "hex": "#FD366E",
       "source": "theSVG",
@@ -236,6 +241,7 @@
     "arangodb": {
       "name": "ArangoDB",
       "file": "logos/arangodb.svg",
+      "hash": "741c61fe84b5",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -243,6 +249,7 @@
     "archlinux": {
       "name": "Arch Linux",
       "file": "logos/archlinux.svg",
+      "hash": "79d51094c6b8",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -250,6 +257,7 @@
     "bash": {
       "name": "GNU Bash",
       "file": "logos/bash.svg",
+      "hash": "623dba139023",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -257,6 +265,7 @@
     "bun": {
       "name": "Bun",
       "file": "logos/bun.svg",
+      "hash": "4a403600e418",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -264,6 +273,7 @@
     "caddy": {
       "name": "Caddy",
       "file": "logos/caddy.svg",
+      "hash": "f08b40084b0a",
       "colour": "mono",
       "hex": "#1F88C0",
       "source": "Simple Icons",
@@ -272,6 +282,7 @@
     "cassandra": {
       "name": "Apache Cassandra",
       "file": "logos/cassandra.svg",
+      "hash": "7ef303bfbd15",
       "colour": "mono",
       "hex": "#1287B1",
       "source": "Simple Icons",
@@ -280,6 +291,7 @@
     "centos": {
       "name": "CentOS",
       "file": "logos/centos.svg",
+      "hash": "5df9b08e0a22",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -287,6 +299,7 @@
     "clickhouse": {
       "name": "ClickHouse",
       "file": "logos/clickhouse.svg",
+      "hash": "ff962d3ae9ed",
       "colour": "mono",
       "hex": "#FFCC01",
       "source": "Simple Icons",
@@ -295,6 +308,7 @@
     "clojure": {
       "name": "Clojure",
       "file": "logos/clojure.svg",
+      "hash": "746323e67e2a",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -302,6 +316,7 @@
     "cockroachdb": {
       "name": "Cockroach Labs",
       "file": "logos/cockroachdb.svg",
+      "hash": "cfd429fe0dae",
       "colour": "mono",
       "hex": "#6933FF",
       "source": "Simple Icons",
@@ -310,6 +325,7 @@
     "consul": {
       "name": "Consul",
       "file": "logos/consul.svg",
+      "hash": "e031121e7e51",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -317,6 +333,7 @@
     "couchbase": {
       "name": "Couchbase",
       "file": "logos/couchbase.svg",
+      "hash": "59f37a040522",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -324,6 +341,7 @@
     "couchdb": {
       "name": "Apache CouchDB",
       "file": "logos/couchdb.svg",
+      "hash": "73611644f7d3",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -331,6 +349,7 @@
     "debian": {
       "name": "Debian",
       "file": "logos/debian.svg",
+      "hash": "b0f4baaf0ac1",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -338,6 +357,7 @@
     "deno": {
       "name": "Deno",
       "file": "logos/deno.svg",
+      "hash": "eff565b9977c",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -345,6 +365,7 @@
     "dify": {
       "name": "Dify",
       "file": "logos/dify.svg",
+      "hash": "38b9d4374f1a",
       "colour": "mono",
       "hex": "#0033FF",
       "source": "Simple Icons",
@@ -353,6 +374,7 @@
     "directus": {
       "name": "Directus",
       "file": "logos/directus.svg",
+      "hash": "fae84148bf09",
       "colour": "full",
       "hex": "#263238",
       "source": "theSVG",
@@ -361,6 +383,7 @@
     "discourse": {
       "name": "Discourse",
       "file": "logos/discourse.svg",
+      "hash": "eee42e136f90",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -368,6 +391,7 @@
     "docker": {
       "name": "Docker",
       "file": "logos/docker.svg",
+      "hash": "c6901ae9ec99",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -375,6 +399,7 @@
     "dotnet": {
       "name": ".NET",
       "file": "logos/dotnet.svg",
+      "hash": "5d89b15adb5b",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -382,6 +407,7 @@
     "drupal": {
       "name": "Drupal",
       "file": "logos/drupal.svg",
+      "hash": "ea7f0c8e3a75",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -389,6 +415,7 @@
     "elasticsearch": {
       "name": "Elasticsearch",
       "file": "logos/elasticsearch.svg",
+      "hash": "704e371be28d",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -396,6 +423,7 @@
     "elixir": {
       "name": "Elixir",
       "file": "logos/elixir.svg",
+      "hash": "acb91e58f26f",
       "colour": "mono",
       "hex": "#4B275F",
       "source": "Simple Icons",
@@ -404,6 +432,7 @@
     "envoy": {
       "name": "Envoy Proxy",
       "file": "logos/envoy.svg",
+      "hash": "6608407ddd8d",
       "colour": "mono",
       "hex": "#AC6199",
       "source": "Simple Icons",
@@ -412,6 +441,7 @@
     "erlang": {
       "name": "Erlang",
       "file": "logos/erlang.svg",
+      "hash": "cb020fbc3f11",
       "colour": "mono",
       "hex": "#A90533",
       "source": "Simple Icons",
@@ -420,6 +450,7 @@
     "etcd": {
       "name": "etcd",
       "file": "logos/etcd.svg",
+      "hash": "3e2543a1007d",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -427,6 +458,7 @@
     "fedora": {
       "name": "Fedora",
       "file": "logos/fedora.svg",
+      "hash": "8b672aca8000",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -434,6 +466,7 @@
     "flink": {
       "name": "Apache Flink",
       "file": "logos/flink.svg",
+      "hash": "dfc16e7036fb",
       "colour": "mono",
       "hex": "#E6526F",
       "source": "Simple Icons",
@@ -442,6 +475,7 @@
     "fluent-bit": {
       "name": "Fluent Bit",
       "file": "logos/fluent-bit.svg",
+      "hash": "0c2c677e9b07",
       "colour": "mono",
       "hex": "#49BDA5",
       "source": "Simple Icons",
@@ -450,6 +484,7 @@
     "fluentd": {
       "name": "Fluentd",
       "file": "logos/fluentd.svg",
+      "hash": "4247a381ef10",
       "colour": "mono",
       "hex": "#0E83C8",
       "source": "Simple Icons",
@@ -458,6 +493,7 @@
     "gentoo": {
       "name": "Gentoo",
       "file": "logos/gentoo.svg",
+      "hash": "7021e2c48a79",
       "colour": "mono",
       "hex": "#54487A",
       "source": "Simple Icons",
@@ -466,6 +502,7 @@
     "ghost": {
       "name": "Ghost",
       "file": "logos/ghost.svg",
+      "hash": "f50c9461287c",
       "colour": "mono",
       "hex": "#15171A",
       "source": "Simple Icons",
@@ -474,6 +511,7 @@
     "gitea": {
       "name": "Gitea",
       "file": "logos/gitea.svg",
+      "hash": "15078ac7cc38",
       "colour": "mono",
       "hex": "#609926",
       "source": "Simple Icons",
@@ -482,6 +520,7 @@
     "gitlab": {
       "name": "GitLab",
       "file": "logos/gitlab.svg",
+      "hash": "f3f9ce764580",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -489,6 +528,7 @@
     "go": {
       "name": "Go",
       "file": "logos/go.svg",
+      "hash": "eafdf3496379",
       "colour": "mono",
       "hex": "#00ADD8",
       "source": "Simple Icons",
@@ -497,6 +537,7 @@
     "gradle": {
       "name": "Gradle",
       "file": "logos/gradle.svg",
+      "hash": "8d4b0cb5b54b",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -504,6 +545,7 @@
     "grafana": {
       "name": "Grafana",
       "file": "logos/grafana.svg",
+      "hash": "2d1bc2686a6f",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -511,6 +553,7 @@
     "groovy": {
       "name": "Apache Groovy",
       "file": "logos/groovy.svg",
+      "hash": "8171c2f688b1",
       "colour": "mono",
       "hex": "#4298B8",
       "source": "Simple Icons",
@@ -519,6 +562,7 @@
     "harbor": {
       "name": "Harbor",
       "file": "logos/harbor.svg",
+      "hash": "ada858d1c77c",
       "colour": "mono",
       "hex": "#60B932",
       "source": "Simple Icons",
@@ -527,6 +571,7 @@
     "hashicorp": {
       "name": "HashiCorp",
       "file": "logos/hashicorp.svg",
+      "hash": "f94247eb2a7a",
       "colour": "mono",
       "hex": "#000000",
       "source": "Simple Icons",
@@ -535,6 +580,7 @@
     "haskell": {
       "name": "Haskell",
       "file": "logos/haskell.svg",
+      "hash": "4f15cc6b2042",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -542,6 +588,7 @@
     "home-assistant": {
       "name": "Home Assistant",
       "file": "logos/home-assistant.svg",
+      "hash": "0813678baec1",
       "colour": "mono",
       "hex": "#18BCF2",
       "source": "Simple Icons",
@@ -550,6 +597,7 @@
     "httpd": {
       "name": "Apache HTTP Server",
       "file": "logos/httpd.svg",
+      "hash": "e88194bf7efc",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -557,6 +605,7 @@
     "influxdb": {
       "name": "InfluxDB",
       "file": "logos/influxdb.svg",
+      "hash": "cc5cb5912291",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -564,6 +613,7 @@
     "jaeger": {
       "name": "Jaeger",
       "file": "logos/jaeger.svg",
+      "hash": "c91deccc4514",
       "colour": "mono",
       "hex": "#66CFE3",
       "source": "Simple Icons",
@@ -572,6 +622,7 @@
     "jellyfin": {
       "name": "Jellyfin",
       "file": "logos/jellyfin.svg",
+      "hash": "9e3ebb372644",
       "colour": "mono",
       "hex": "#00A4DC",
       "source": "Simple Icons",
@@ -580,6 +631,7 @@
     "jenkins": {
       "name": "Jenkins",
       "file": "logos/jenkins.svg",
+      "hash": "26bbba3acb15",
       "colour": "mono",
       "hex": "#D24939",
       "source": "Simple Icons",
@@ -588,6 +640,7 @@
     "jetty": {
       "name": "Eclipse Jetty",
       "file": "logos/jetty.svg",
+      "hash": "986e9b68c6c7",
       "colour": "mono",
       "hex": "#FC390E",
       "source": "Simple Icons",
@@ -596,6 +649,7 @@
     "joomla": {
       "name": "Joomla",
       "file": "logos/joomla.svg",
+      "hash": "81dd620cf011",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -603,6 +657,7 @@
     "julia": {
       "name": "Julia",
       "file": "logos/julia.svg",
+      "hash": "c48dfdb36c97",
       "colour": "full",
       "hex": "#9558B2",
       "source": "theSVG",
@@ -611,6 +666,7 @@
     "jupyter": {
       "name": "Jupyter",
       "file": "logos/jupyter.svg",
+      "hash": "881d82a726e1",
       "colour": "mono",
       "hex": "#F37626",
       "source": "Simple Icons",
@@ -619,6 +675,7 @@
     "k3s": {
       "name": "K3s",
       "file": "logos/k3s.svg",
+      "hash": "f051d234859f",
       "colour": "mono",
       "hex": "#FFC61C",
       "source": "Simple Icons",
@@ -627,6 +684,7 @@
     "kafka": {
       "name": "Apache Kafka",
       "file": "logos/kafka.svg",
+      "hash": "d1a8abc9c6d0",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -634,6 +692,7 @@
     "keycloak": {
       "name": "Keycloak",
       "file": "logos/keycloak.svg",
+      "hash": "3fca4c6a6f02",
       "colour": "mono",
       "hex": "#4D4D4D",
       "source": "Simple Icons",
@@ -642,6 +701,7 @@
     "kibana": {
       "name": "Kibana",
       "file": "logos/kibana.svg",
+      "hash": "a4182a289d72",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -649,6 +709,7 @@
     "kong": {
       "name": "Kong",
       "file": "logos/kong.svg",
+      "hash": "c294a079335c",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -656,6 +717,7 @@
     "kotlin": {
       "name": "Kotlin",
       "file": "logos/kotlin.svg",
+      "hash": "fd47cae2f2a4",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -663,6 +725,7 @@
     "kubernetes": {
       "name": "Kubernetes",
       "file": "logos/kubernetes.svg",
+      "hash": "185509ebfa43",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -670,6 +733,7 @@
     "langfuse": {
       "name": "Langfuse",
       "file": "logos/langfuse.svg",
+      "hash": "f6fe4a76afcd",
       "colour": "full",
       "hex": "#000",
       "source": "theSVG",
@@ -678,6 +742,7 @@
     "logstash": {
       "name": "Logstash",
       "file": "logos/logstash.svg",
+      "hash": "cc024ed62db0",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -685,6 +750,7 @@
     "mailpit": {
       "name": "Mailpit",
       "file": "logos/mailpit.svg",
+      "hash": "34a705a0eb23",
       "colour": "full",
       "hex": "#00B786",
       "source": "theSVG",
@@ -693,6 +759,7 @@
     "mariadb": {
       "name": "MariaDB",
       "file": "logos/mariadb.svg",
+      "hash": "786671a5c7f8",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -700,6 +767,7 @@
     "matomo": {
       "name": "Matomo",
       "file": "logos/matomo.svg",
+      "hash": "5a46cf2aac99",
       "colour": "mono",
       "hex": "#3152A0",
       "source": "Simple Icons",
@@ -708,6 +776,7 @@
     "mattermost": {
       "name": "Mattermost",
       "file": "logos/mattermost.svg",
+      "hash": "e91bcb5ab234",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -715,6 +784,7 @@
     "maven": {
       "name": "Apache Maven",
       "file": "logos/maven.svg",
+      "hash": "71eabcfe7be7",
       "colour": "mono",
       "hex": "#C71A36",
       "source": "Simple Icons",
@@ -723,6 +793,7 @@
     "meilisearch": {
       "name": "Meilisearch",
       "file": "logos/meilisearch.svg",
+      "hash": "07fdfbd25714",
       "colour": "mono",
       "hex": "#FF5CAA",
       "source": "Simple Icons",
@@ -731,6 +802,7 @@
     "memcached": {
       "name": "Memcached",
       "file": "logos/memcached.svg",
+      "hash": "a7c26a243286",
       "colour": "full",
       "hex": "#2A9790",
       "source": "theSVG",
@@ -739,6 +811,7 @@
     "metabase": {
       "name": "Metabase",
       "file": "logos/metabase.svg",
+      "hash": "8e6fec3bd249",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -746,6 +819,7 @@
     "milvus": {
       "name": "Milvus",
       "file": "logos/milvus.svg",
+      "hash": "6b47889d0f33",
       "colour": "mono",
       "hex": "#00A1EA",
       "source": "Simple Icons",
@@ -754,6 +828,7 @@
     "minio": {
       "name": "MinIO",
       "file": "logos/minio.svg",
+      "hash": "4e3271b5f9f7",
       "colour": "mono",
       "hex": "#C72E49",
       "source": "Simple Icons",
@@ -762,6 +837,7 @@
     "mongodb": {
       "name": "MongoDB",
       "file": "logos/mongodb.svg",
+      "hash": "5393f52a2a02",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -769,6 +845,7 @@
     "mosquitto": {
       "name": "Eclipse Mosquitto",
       "file": "logos/mosquitto.svg",
+      "hash": "00d407d73de5",
       "colour": "mono",
       "hex": "#3C5280",
       "source": "Simple Icons",
@@ -777,6 +854,7 @@
     "mysql": {
       "name": "MySQL",
       "file": "logos/mysql.svg",
+      "hash": "80ef53e038bf",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -784,6 +862,7 @@
     "n8n": {
       "name": "n8n",
       "file": "logos/n8n.svg",
+      "hash": "09185f01a03c",
       "colour": "mono",
       "hex": "#EA4B71",
       "source": "Simple Icons",
@@ -792,6 +871,7 @@
     "nats": {
       "name": "NATS.io",
       "file": "logos/nats.svg",
+      "hash": "bb3c71204ac8",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -799,6 +879,7 @@
     "neo4j": {
       "name": "Neo4j",
       "file": "logos/neo4j.svg",
+      "hash": "317b08f17d52",
       "colour": "mono",
       "hex": "#4581C3",
       "source": "Simple Icons",
@@ -807,6 +888,7 @@
     "nextcloud": {
       "name": "Nextcloud",
       "file": "logos/nextcloud.svg",
+      "hash": "3b734534f5ec",
       "colour": "mono",
       "hex": "#0082C9",
       "source": "Simple Icons",
@@ -815,6 +897,7 @@
     "nexus": {
       "name": "Sonatype Nexus",
       "file": "logos/nexus.svg",
+      "hash": "dd36e8573e60",
       "colour": "mono",
       "hex": "#1B1C30",
       "source": "Simple Icons",
@@ -823,6 +906,7 @@
     "nginx": {
       "name": "NGINX",
       "file": "logos/nginx.svg",
+      "hash": "9cef5ec527a8",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -830,6 +914,7 @@
     "nixos": {
       "name": "NixOS",
       "file": "logos/nixos.svg",
+      "hash": "89b5ae170c05",
       "colour": "mono",
       "hex": "#5277C3",
       "source": "Simple Icons",
@@ -838,6 +923,7 @@
     "node": {
       "name": "Node.js",
       "file": "logos/node.svg",
+      "hash": "ef6e7baa89cb",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -845,6 +931,7 @@
     "nomad": {
       "name": "Nomad",
       "file": "logos/nomad.svg",
+      "hash": "1d22125b184d",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -852,6 +939,7 @@
     "odoo": {
       "name": "Odoo",
       "file": "logos/odoo.svg",
+      "hash": "fcdd80ad16f6",
       "colour": "mono",
       "hex": "#714B67",
       "source": "Simple Icons",
@@ -860,6 +948,7 @@
     "ollama": {
       "name": "Ollama",
       "file": "logos/ollama.svg",
+      "hash": "22861d9de457",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -867,6 +956,7 @@
     "open-webui": {
       "name": "Open WebUI",
       "file": "logos/open-webui.svg",
+      "hash": "c9bcaf2ed82f",
       "colour": "full",
       "hex": "#3ECC5F",
       "source": "theSVG",
@@ -875,6 +965,7 @@
     "openjdk": {
       "name": "OpenJDK",
       "file": "logos/openjdk.svg",
+      "hash": "75c865806833",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -882,6 +973,7 @@
     "opensearch": {
       "name": "OpenSearch",
       "file": "logos/opensearch.svg",
+      "hash": "4607ac581e17",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -889,6 +981,7 @@
     "opensuse": {
       "name": "openSUSE",
       "file": "logos/opensuse.svg",
+      "hash": "bfa5b49847a8",
       "colour": "mono",
       "hex": "#73BA25",
       "source": "Simple Icons",
@@ -897,6 +990,7 @@
     "opentelemetry": {
       "name": "OpenTelemetry",
       "file": "logos/opentelemetry.svg",
+      "hash": "daa2984fb9e9",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -904,6 +998,7 @@
     "perl": {
       "name": "Perl",
       "file": "logos/perl.svg",
+      "hash": "778a14e67849",
       "colour": "mono",
       "hex": "#0073A1",
       "source": "Simple Icons",
@@ -912,6 +1007,7 @@
     "php": {
       "name": "PHP",
       "file": "logos/php.svg",
+      "hash": "f69f84345ecc",
       "colour": "mono",
       "hex": "#777BB4",
       "source": "Simple Icons",
@@ -920,6 +1016,7 @@
     "phpmyadmin": {
       "name": "phpMyAdmin",
       "file": "logos/phpmyadmin.svg",
+      "hash": "3e52ea34272b",
       "colour": "mono",
       "hex": "#6C78AF",
       "source": "Simple Icons",
@@ -928,6 +1025,7 @@
     "pihole": {
       "name": "Pi-hole",
       "file": "logos/pihole.svg",
+      "hash": "19e6de36b8be",
       "colour": "mono",
       "hex": "#96060C",
       "source": "Simple Icons",
@@ -936,6 +1034,7 @@
     "plex": {
       "name": "Plex",
       "file": "logos/plex.svg",
+      "hash": "12d5df86c151",
       "colour": "mono",
       "hex": "#EBAF00",
       "source": "Simple Icons",
@@ -944,6 +1043,7 @@
     "portainer": {
       "name": "Portainer",
       "file": "logos/portainer.svg",
+      "hash": "ab6585057e6b",
       "colour": "mono",
       "hex": "#13BEF9",
       "source": "Simple Icons",
@@ -952,6 +1052,7 @@
     "postgresql": {
       "name": "PostgreSQL",
       "file": "logos/postgresql.svg",
+      "hash": "295ec2169fa4",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -959,6 +1060,7 @@
     "prometheus": {
       "name": "Prometheus",
       "file": "logos/prometheus.svg",
+      "hash": "b8d8b688fb64",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -966,6 +1068,7 @@
     "pulsar": {
       "name": "Apache Pulsar",
       "file": "logos/pulsar.svg",
+      "hash": "ad22a616a813",
       "colour": "mono",
       "hex": "#188FFF",
       "source": "Simple Icons",
@@ -974,6 +1077,7 @@
     "python": {
       "name": "Python",
       "file": "logos/python.svg",
+      "hash": "eb276ba79caf",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -981,6 +1085,7 @@
     "pytorch": {
       "name": "PyTorch",
       "file": "logos/pytorch.svg",
+      "hash": "0164313fed84",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -988,6 +1093,7 @@
     "qdrant": {
       "name": "Qdrant",
       "file": "logos/qdrant.svg",
+      "hash": "b4a5c0787120",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -995,6 +1101,7 @@
     "r": {
       "name": "R",
       "file": "logos/r.svg",
+      "hash": "c563818b1e5f",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1002,6 +1109,7 @@
     "rabbitmq": {
       "name": "RabbitMQ",
       "file": "logos/rabbitmq.svg",
+      "hash": "24778ff5351d",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1009,6 +1117,7 @@
     "redis": {
       "name": "Redis",
       "file": "logos/redis.svg",
+      "hash": "6576c1df7e9d",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1016,6 +1125,7 @@
     "redmine": {
       "name": "Redmine",
       "file": "logos/redmine.svg",
+      "hash": "652909fc5008",
       "colour": "mono",
       "hex": "#B32024",
       "source": "Simple Icons",
@@ -1024,6 +1134,7 @@
     "rocket-chat": {
       "name": "Rocket.Chat",
       "file": "logos/rocket-chat.svg",
+      "hash": "b49ce365487d",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1031,6 +1142,7 @@
     "rocky-linux": {
       "name": "Rocky Linux",
       "file": "logos/rocky-linux.svg",
+      "hash": "1baed068eb75",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1038,6 +1150,7 @@
     "ruby": {
       "name": "Ruby",
       "file": "logos/ruby.svg",
+      "hash": "7093db044a5e",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1045,6 +1158,7 @@
     "rust": {
       "name": "Rust",
       "file": "logos/rust.svg",
+      "hash": "64124cf4d95e",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1052,6 +1166,7 @@
     "scala": {
       "name": "Scala",
       "file": "logos/scala.svg",
+      "hash": "09323ae951fa",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1059,6 +1174,7 @@
     "searxng": {
       "name": "SearXNG",
       "file": "logos/searxng.svg",
+      "hash": "64c1fda7c94c",
       "colour": "mono",
       "hex": "#3050FF",
       "source": "Simple Icons",
@@ -1067,6 +1183,7 @@
     "sentry": {
       "name": "Sentry",
       "file": "logos/sentry.svg",
+      "hash": "6304fb9d0518",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1074,6 +1191,7 @@
     "solr": {
       "name": "Apache Solr",
       "file": "logos/solr.svg",
+      "hash": "580bf2ee7872",
       "colour": "mono",
       "hex": "#D9411E",
       "source": "Simple Icons",
@@ -1082,6 +1200,7 @@
     "sonarqube": {
       "name": "SonarQube Server",
       "file": "logos/sonarqube.svg",
+      "hash": "e4d8bd5351ba",
       "colour": "mono",
       "hex": "#126ED3",
       "source": "Simple Icons",
@@ -1090,6 +1209,7 @@
     "spark": {
       "name": "Apache Spark",
       "file": "logos/spark.svg",
+      "hash": "a08181583223",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1097,6 +1217,7 @@
     "sqlite": {
       "name": "SQLite",
       "file": "logos/sqlite.svg",
+      "hash": "3a96735ef0e3",
       "colour": "mono",
       "hex": "#003B57",
       "source": "Simple Icons",
@@ -1105,6 +1226,7 @@
     "strapi": {
       "name": "Strapi",
       "file": "logos/strapi.svg",
+      "hash": "6dbfa2f3213a",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1112,6 +1234,7 @@
     "supabase": {
       "name": "Supabase",
       "file": "logos/supabase.svg",
+      "hash": "cbff3b59e046",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1119,6 +1242,7 @@
     "superset": {
       "name": "Apache Superset",
       "file": "logos/superset.svg",
+      "hash": "6fb223065fce",
       "colour": "mono",
       "hex": "#20A6C9",
       "source": "Simple Icons",
@@ -1127,6 +1251,7 @@
     "surrealdb": {
       "name": "SurrealDB",
       "file": "logos/surrealdb.svg",
+      "hash": "abb4529bae3f",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1134,6 +1259,7 @@
     "swagger": {
       "name": "Swagger",
       "file": "logos/swagger.svg",
+      "hash": "4fd3c913b86d",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1141,6 +1267,7 @@
     "swift": {
       "name": "Swift",
       "file": "logos/swift.svg",
+      "hash": "0f9036d82c93",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1148,6 +1275,7 @@
     "temporal": {
       "name": "Temporal",
       "file": "logos/temporal.svg",
+      "hash": "901767e85fa9",
       "colour": "mono",
       "hex": "#000000",
       "source": "Simple Icons",
@@ -1156,6 +1284,7 @@
     "temurin": {
       "name": "Eclipse Adoptium",
       "file": "logos/temurin.svg",
+      "hash": "7ee6a62f9d05",
       "colour": "mono",
       "hex": "#FF1464",
       "source": "Simple Icons",
@@ -1164,6 +1293,7 @@
     "tensorflow": {
       "name": "TensorFlow",
       "file": "logos/tensorflow.svg",
+      "hash": "e703bce4086a",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1171,6 +1301,7 @@
     "terraform": {
       "name": "Terraform",
       "file": "logos/terraform.svg",
+      "hash": "30ed29b1ee73",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1178,6 +1309,7 @@
     "timescale": {
       "name": "Timescale",
       "file": "logos/timescale.svg",
+      "hash": "3613aec0488c",
       "colour": "mono",
       "hex": "#FDB515",
       "source": "Simple Icons",
@@ -1186,6 +1318,7 @@
     "tomcat": {
       "name": "Apache Tomcat",
       "file": "logos/tomcat.svg",
+      "hash": "64702210576b",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1193,6 +1326,7 @@
     "traefik": {
       "name": "Traefik Proxy",
       "file": "logos/traefik.svg",
+      "hash": "a4cf33cb079a",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1200,6 +1334,7 @@
     "ubuntu": {
       "name": "Ubuntu",
       "file": "logos/ubuntu.svg",
+      "hash": "b831aecad796",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1207,6 +1342,7 @@
     "uptime-kuma": {
       "name": "Uptime Kuma",
       "file": "logos/uptime-kuma.svg",
+      "hash": "df753d3a92dc",
       "colour": "mono",
       "hex": "#5CDD8B",
       "source": "Simple Icons",
@@ -1215,6 +1351,7 @@
     "vault": {
       "name": "Vault",
       "file": "logos/vault.svg",
+      "hash": "10d5dec0a6c4",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"
@@ -1222,6 +1359,7 @@
     "vaultwarden": {
       "name": "Vaultwarden",
       "file": "logos/vaultwarden.svg",
+      "hash": "2fe9a3d9bf9b",
       "colour": "mono",
       "hex": "#000000",
       "source": "Simple Icons",
@@ -1230,6 +1368,7 @@
     "wordpress": {
       "name": "WordPress",
       "file": "logos/wordpress.svg",
+      "hash": "67158c0953a9",
       "colour": "full",
       "source": "SVG Logos",
       "license": "CC0-1.0"

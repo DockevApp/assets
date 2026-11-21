@@ -15,10 +15,11 @@ scripts/format.mjs     rewrites the catalog: sorted, one brand per line
 scripts/sources/*.mjs  one module per source
 scripts/lib.mjs        cached downloads, shared checks
 dist/                  the published output (committed)
-  index.json           image name / namespace → brand, brand → name, logo file, colour, licence
+  index.json           image name / namespace → brand, brand → name, logo file, hash, colour, licence
   logos/<brand>.svg    one cleaned SVG per brand
   CREDITS.md           source and licence of every logo
 .cache/                downloads (ignored; makes rebuilds offline)
+.github/workflows/     Build and release: checks dist/, tags and publishes releases
 ```
 
 ## Build
@@ -122,17 +123,37 @@ to `SOURCES` in the order it should be preferred.
 
 ## Publish
 
-1. Bump `version` in `package.json`, build, check `dist/`.
-2. Commit, tag it `v<version>`, push the tag.
-3. The app fetches from that tag, e.g.
-   `https://cdn.jsdelivr.net/gh/<owner>/assets@v1.0.0/dist/index.json`
-   (jsDelivr; tagged files stay cached even if GitHub has trouble), with
-   `https://raw.githubusercontent.com/<owner>/assets/v1.0.0/dist/...` as the
-   fallback. Neither is the GitHub API, so there's no API rate limit, and each
-   user only downloads the few logos for the images they have.
+1. Bump `version` in `package.json`:
+   - **minor or patch** (`1.0.0` → `1.1.0`) for new brands, image names or
+     better logos;
+   - **major** (`1.x` → `2.0.0`) only when `index.json` changes in a way
+     installed apps can't read: a field removed, renamed or changed in meaning.
+2. `npm run format && npm run build`, and check `dist/`.
+3. Commit and push to `main`.
 
-A tag is never changed after it's published: the app pins one, and a new set
-is a new tag.
+The `Build and release` workflow (`.github/workflows/build-and-release.yml`) does the rest:
+- **check**, on every pull request and push: fails if the catalog isn't
+  formatted or `dist/` isn't exactly what the build makes, so `dist/` never
+  drifts from the catalog.
+- **release**, on a push to `main` whose version has no tag yet: tags
+  `v<version>`, publishes a GitHub release, and asks jsDelivr to pick it up
+  right away. A push without a version bump releases nothing.
+
+Never move or delete a published tag: apps fetch logos by tag.
+
+**How the app picks a release.** It asks jsDelivr for the newest release of
+its major version, `https://cdn.jsdelivr.net/gh/DockevApp/assets@1/dist/index.json`,
+so a `v1.x.x` tag reaches users without an app update, and a `v2.0.0` never
+reaches apps built for `1`. Logos then come from the exact tag in that index
+(`@v1.1.0/dist/logos/…`). If jsDelivr is down, the app uses GitHub
+(`raw.githubusercontent.com/DockevApp/assets/v<version>/dist/…`) at the last
+release it knows. Neither is the GitHub API, so there's no API rate limit.
+
+- **When users see a release:** within a day, since the app asks for a newer
+  index once a day (the release job has already refreshed jsDelivr). A logo is only
+  downloaded again when its `hash` changes.
+- **A failed or broken download** never blanks the icons: the app keeps its
+  last good `index.json`.
 
 ## Licences
 

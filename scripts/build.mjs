@@ -5,6 +5,7 @@
 //
 // Sources are pinned, and every download is cached in .cache/, so a rebuild
 // is offline and gives the same files.
+import { createHash } from "node:crypto";
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
@@ -133,6 +134,7 @@ await rm(DIST, { recursive: true, force: true });
 await mkdir(join(DIST, "logos"), { recursive: true });
 
 const index = {
+  /** The release (tag `v<version>`) these files belong to; the app fetches logos from that tag. */
   version: pkg.version,
   sources: SOURCES.filter((s, i) => SOURCES.findIndex((o) => o.name === s.name) === i).map((s) => ({
     name: s.name,
@@ -148,7 +150,7 @@ const index = {
     /** Publisher (the first path component) → brand, for its images no name matches. */
     namespaces: {},
   },
-  /** Brand → its logo. `colour: "mono"` logos are painted in `hex`. */
+  /** Brand → its logo. `colour: "mono"` logos are painted in `hex`; `hash` changes when the file does. */
   brands: {},
 };
 
@@ -163,6 +165,7 @@ for (const r of results) {
   index.brands[r.brand] = {
     name: catalog[r.brand].name,
     file: `logos/${r.brand}.svg`,
+    hash: createHash("sha256").update(r.svg).digest("hex").slice(0, 12),
     colour: r.found.colour,
     ...(r.found.hex && { hex: r.found.hex }),
     source: r.source.name,

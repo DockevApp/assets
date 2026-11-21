@@ -1,0 +1,94 @@
+# check:   on every pull request and push, the catalog is formatted and dist/
+#          is exactly what the build makes from it.
+# release: on a push to main whose package.json version has no tag yet, tags
+#          v<version>, publishes a GitHub release, and asks jsDelivr to pick it
+#          up now instead of within a day.
+name: Build and release
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: build-and-release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # The sources are pinned, so their downloads never go stale: reuse them
+      # until a source module (and so its pinned version) changes.
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: sources-${{ hashFiles('scripts/sources/**') }}-${{ hashFiles('logos/catalog.json') }}
+          restore-keys: sources-${{ hashFiles('scripts/sources/**') }}-
+
+      - name: Catalog is formatted
+        run: |
+          node scripts/format.mjs
+          git diff --exit-code -- logos/catalog.json || {
+            echo "::error file=logos/catalog.json::Not formatted. Run: npm run format"
+            exit 1
+          }
+
+      - name: dist/ matches the build
+        run: |
+          node scripts/build.mjs
+          git add -N dist
+          git diff --exit-code --stat -- dist || {
+            echo "::error::dist/ is out of date with the catalog or scripts. Run: npm run build, and commit dist/"
+            exit 1
+          }
+
+  release:
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Version to release
+        id: version
+        run: |
+          version=$(node -p 'require("./package.json").version')
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "major=${version%%.*}" >> "$GITHUB_OUTPUT"
+          if git ls-remote --exit-code --tags origin "refs/tags/v$version" >/dev/null; then
+            echo "v$version is already released; bump version in package.json to publish."
+            echo "new=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "new=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Tag and publish the release
+        if: steps.version.outputs.new == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          brands=$(node -p 'Object.keys(require("./dist/index.json").brands).length')
+          gh release create "v$VERSION" \
+            --target "$GITHUB_SHA" \
+            --title "v$VERSION" \
+            --notes "$brands brand logos. Sources and licences: [CREDITS.md](https://github.com/$GITHUB_REPOSITORY/blob/v$VERSION/dist/CREDITS.md)."
+
+      # Apps read the newest release of their major (`@1`), which jsDelivr
+      # otherwise re-resolves on its own schedule. Not fatal: it catches up anyway.
+      - name: Refresh jsDelivr
+        if: steps.version.outputs.new == 'true'
+        env:
+          MAJOR: ${{ steps.version.outputs.major }}
+        run: |
+          curl -fsS "https://purge.jsdelivr.net/gh/$GITHUB_REPOSITORY@$MAJOR/dist/index.json" \
+            || echo "::warning::jsDelivr purge failed; @$MAJOR picks up the release within a day"
