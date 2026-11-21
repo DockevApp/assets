@@ -1,0 +1,14 @@
+{
+  "name": "dockev-assets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brand logos Dockev shows for well-known images, built from pinned open sources.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "format": "node scripts/format.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

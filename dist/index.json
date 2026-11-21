@@ -1,0 +1,1238 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "name": "SVG Logos",
+      "version": "b9edc65",
+      "license": "CC0-1.0",
+      "homepage": "https://github.com/gilbarbara/logos"
+    },
+    {
+      "name": "theSVG",
+      "version": "thesvg@4.0.14",
+      "license": "per logo",
+      "homepage": "https://thesvg.org"
+    },
+    {
+      "name": "Simple Icons",
+      "version": "16.35.0",
+      "license": "CC0-1.0",
+      "homepage": "https://simpleicons.org"
+    }
+  ],
+  "image": {
+    "names": {
+      "adminer": "adminer",
+      "airflow": "airflow",
+      "alertmanager": "prometheus",
+      "almalinux": "almalinux",
+      "alpine": "alpine",
+      "amazoncorretto": "openjdk",
+      "appwrite/appwrite": "appwrite",
+      "arangodb": "arangodb",
+      "archlinux": "archlinux",
+      "axllent/mailpit": "mailpit",
+      "bash": "bash",
+      "bun": "bun",
+      "caddy": "caddy",
+      "cassandra": "cassandra",
+      "centos": "centos",
+      "clickhouse": "clickhouse",
+      "clickhouse-server": "clickhouse",
+      "clojure": "clojure",
+      "cockroach": "cockroachdb",
+      "consul": "consul",
+      "couchbase": "couchbase",
+      "couchdb": "couchdb",
+      "debian": "debian",
+      "deno": "deno",
+      "dind": "docker",
+      "directus": "directus",
+      "discourse": "discourse",
+      "docker": "docker",
+      "dotnet/aspnet": "dotnet",
+      "dotnet/runtime": "dotnet",
+      "dotnet/sdk": "dotnet",
+      "drupal": "drupal",
+      "eclipse-mosquitto": "mosquitto",
+      "eclipse-temurin": "temurin",
+      "elasticsearch": "elasticsearch",
+      "elixir": "elixir",
+      "envoy": "envoy",
+      "erlang": "erlang",
+      "etcd": "etcd",
+      "fedora": "fedora",
+      "flink": "flink",
+      "fluent-bit": "fluent-bit",
+      "fluentd": "fluentd",
+      "gentoo": "gentoo",
+      "ghost": "ghost",
+      "gitea": "gitea",
+      "gitlab-ce": "gitlab",
+      "gitlab-runner": "gitlab",
+      "golang": "go",
+      "gradle": "gradle",
+      "grafana": "grafana",
+      "groovy": "groovy",
+      "harbor-core": "harbor",
+      "haskell": "haskell",
+      "hello-world": "docker",
+      "home-assistant": "home-assistant",
+      "homeassistant": "home-assistant",
+      "httpd": "httpd",
+      "influxdb": "influxdb",
+      "jaeger": "jaeger",
+      "jellyfin": "jellyfin",
+      "jenkins": "jenkins",
+      "jetty": "jetty",
+      "joomla": "joomla",
+      "jruby": "ruby",
+      "julia": "julia",
+      "jupyter": "jupyter",
+      "k3s": "k3s",
+      "kafka": "kafka",
+      "keycloak": "keycloak",
+      "kibana": "kibana",
+      "kindest/node": "kubernetes",
+      "kong": "kong",
+      "kotlin": "kotlin",
+      "kubectl": "kubernetes",
+      "langfuse/langfuse": "langfuse",
+      "logstash": "logstash",
+      "loki": "grafana",
+      "mariadb": "mariadb",
+      "matomo": "matomo",
+      "mattermost": "mattermost",
+      "maven": "maven",
+      "meilisearch": "meilisearch",
+      "memcached": "memcached",
+      "metabase": "metabase",
+      "milvusdb/milvus": "milvus",
+      "minio": "minio",
+      "mongo": "mongodb",
+      "mongo-express": "mongodb",
+      "mongodb": "mongodb",
+      "mosquitto": "mosquitto",
+      "mysql": "mysql",
+      "n8n": "n8n",
+      "nats": "nats",
+      "neo4j": "neo4j",
+      "nextcloud": "nextcloud",
+      "nexus3": "nexus",
+      "nginx": "nginx",
+      "nginx-unprivileged": "nginx",
+      "nixos": "nixos",
+      "node": "node",
+      "node-exporter": "prometheus",
+      "nomad": "nomad",
+      "odoo": "odoo",
+      "ollama": "ollama",
+      "open-webui/open-webui": "open-webui",
+      "openjdk": "openjdk",
+      "opensearch": "opensearch",
+      "opensuse": "opensuse",
+      "opentelemetry-collector": "opentelemetry",
+      "perl": "perl",
+      "pgadmin4": "postgresql",
+      "php": "php",
+      "phpmyadmin": "phpmyadmin",
+      "pihole": "pihole",
+      "plex": "plex",
+      "portainer": "portainer",
+      "postgis": "postgresql",
+      "postgres": "postgresql",
+      "prometheus": "prometheus",
+      "promtail": "grafana",
+      "pulsar": "pulsar",
+      "python": "python",
+      "pytorch": "pytorch",
+      "qdrant": "qdrant",
+      "r-base": "r",
+      "rabbitmq": "rabbitmq",
+      "redis": "redis",
+      "redis-stack": "redis",
+      "redmine": "redmine",
+      "registry": "docker",
+      "rocket.chat": "rocket-chat",
+      "rockylinux": "rocky-linux",
+      "ruby": "ruby",
+      "rust": "rust",
+      "scala": "scala",
+      "searxng/searxng": "searxng",
+      "sentry": "sentry",
+      "solr": "solr",
+      "sonarqube": "sonarqube",
+      "spark": "spark",
+      "sqlite": "sqlite",
+      "strapi": "strapi",
+      "supabase": "supabase",
+      "superset": "superset",
+      "surrealdb": "surrealdb",
+      "swagger-ui": "swagger",
+      "swift": "swift",
+      "telegraf": "influxdb",
+      "tempo": "grafana",
+      "tensorflow": "tensorflow",
+      "terraform": "terraform",
+      "timescaledb": "timescale",
+      "tomcat": "tomcat",
+      "tomee": "tomcat",
+      "traefik": "traefik",
+      "ubuntu": "ubuntu",
+      "uptime-kuma": "uptime-kuma",
+      "vault": "vault",
+      "vaultwarden": "vaultwarden",
+      "wordpress": "wordpress"
+    },
+    "namespaces": {
+      "grafana": "grafana",
+      "hashicorp": "hashicorp",
+      "langgenius": "dify",
+      "prom": "prometheus",
+      "temporalio": "temporal",
+      "ubuntu": "ubuntu"
+    }
+  },
+  "brands": {
+    "adminer": {
+      "name": "Adminer",
+      "file": "logos/adminer.svg",
+      "colour": "mono",
+      "hex": "#34567C",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "airflow": {
+      "name": "Apache Airflow",
+      "file": "logos/airflow.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "almalinux": {
+      "name": "AlmaLinux",
+      "file": "logos/almalinux.svg",
+      "colour": "mono",
+      "hex": "#000000",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "alpine": {
+      "name": "Alpine Linux",
+      "file": "logos/alpine.svg",
+      "colour": "mono",
+      "hex": "#0D597F",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "appwrite": {
+      "name": "Appwrite",
+      "file": "logos/appwrite.svg",
+      "colour": "full",
+      "hex": "#FD366E",
+      "source": "theSVG",
+      "license": "CC0-1.0"
+    },
+    "arangodb": {
+      "name": "ArangoDB",
+      "file": "logos/arangodb.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "archlinux": {
+      "name": "Arch Linux",
+      "file": "logos/archlinux.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "bash": {
+      "name": "GNU Bash",
+      "file": "logos/bash.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "bun": {
+      "name": "Bun",
+      "file": "logos/bun.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "caddy": {
+      "name": "Caddy",
+      "file": "logos/caddy.svg",
+      "colour": "mono",
+      "hex": "#1F88C0",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "cassandra": {
+      "name": "Apache Cassandra",
+      "file": "logos/cassandra.svg",
+      "colour": "mono",
+      "hex": "#1287B1",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "centos": {
+      "name": "CentOS",
+      "file": "logos/centos.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "clickhouse": {
+      "name": "ClickHouse",
+      "file": "logos/clickhouse.svg",
+      "colour": "mono",
+      "hex": "#FFCC01",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "clojure": {
+      "name": "Clojure",
+      "file": "logos/clojure.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "cockroachdb": {
+      "name": "Cockroach Labs",
+      "file": "logos/cockroachdb.svg",
+      "colour": "mono",
+      "hex": "#6933FF",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "consul": {
+      "name": "Consul",
+      "file": "logos/consul.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "couchbase": {
+      "name": "Couchbase",
+      "file": "logos/couchbase.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "couchdb": {
+      "name": "Apache CouchDB",
+      "file": "logos/couchdb.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "debian": {
+      "name": "Debian",
+      "file": "logos/debian.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "deno": {
+      "name": "Deno",
+      "file": "logos/deno.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "dify": {
+      "name": "Dify",
+      "file": "logos/dify.svg",
+      "colour": "mono",
+      "hex": "#0033FF",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "directus": {
+      "name": "Directus",
+      "file": "logos/directus.svg",
+      "colour": "full",
+      "hex": "#263238",
+      "source": "theSVG",
+      "license": "CC0-1.0"
+    },
+    "discourse": {
+      "name": "Discourse",
+      "file": "logos/discourse.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "docker": {
+      "name": "Docker",
+      "file": "logos/docker.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "dotnet": {
+      "name": ".NET",
+      "file": "logos/dotnet.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "drupal": {
+      "name": "Drupal",
+      "file": "logos/drupal.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "elasticsearch": {
+      "name": "Elasticsearch",
+      "file": "logos/elasticsearch.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "elixir": {
+      "name": "Elixir",
+      "file": "logos/elixir.svg",
+      "colour": "mono",
+      "hex": "#4B275F",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "envoy": {
+      "name": "Envoy Proxy",
+      "file": "logos/envoy.svg",
+      "colour": "mono",
+      "hex": "#AC6199",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "erlang": {
+      "name": "Erlang",
+      "file": "logos/erlang.svg",
+      "colour": "mono",
+      "hex": "#A90533",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "etcd": {
+      "name": "etcd",
+      "file": "logos/etcd.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "fedora": {
+      "name": "Fedora",
+      "file": "logos/fedora.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "flink": {
+      "name": "Apache Flink",
+      "file": "logos/flink.svg",
+      "colour": "mono",
+      "hex": "#E6526F",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "fluent-bit": {
+      "name": "Fluent Bit",
+      "file": "logos/fluent-bit.svg",
+      "colour": "mono",
+      "hex": "#49BDA5",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "fluentd": {
+      "name": "Fluentd",
+      "file": "logos/fluentd.svg",
+      "colour": "mono",
+      "hex": "#0E83C8",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "gentoo": {
+      "name": "Gentoo",
+      "file": "logos/gentoo.svg",
+      "colour": "mono",
+      "hex": "#54487A",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "ghost": {
+      "name": "Ghost",
+      "file": "logos/ghost.svg",
+      "colour": "mono",
+      "hex": "#15171A",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "gitea": {
+      "name": "Gitea",
+      "file": "logos/gitea.svg",
+      "colour": "mono",
+      "hex": "#609926",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "gitlab": {
+      "name": "GitLab",
+      "file": "logos/gitlab.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "go": {
+      "name": "Go",
+      "file": "logos/go.svg",
+      "colour": "mono",
+      "hex": "#00ADD8",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "gradle": {
+      "name": "Gradle",
+      "file": "logos/gradle.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "grafana": {
+      "name": "Grafana",
+      "file": "logos/grafana.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "groovy": {
+      "name": "Apache Groovy",
+      "file": "logos/groovy.svg",
+      "colour": "mono",
+      "hex": "#4298B8",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "harbor": {
+      "name": "Harbor",
+      "file": "logos/harbor.svg",
+      "colour": "mono",
+      "hex": "#60B932",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "hashicorp": {
+      "name": "HashiCorp",
+      "file": "logos/hashicorp.svg",
+      "colour": "mono",
+      "hex": "#000000",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "haskell": {
+      "name": "Haskell",
+      "file": "logos/haskell.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "home-assistant": {
+      "name": "Home Assistant",
+      "file": "logos/home-assistant.svg",
+      "colour": "mono",
+      "hex": "#18BCF2",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "httpd": {
+      "name": "Apache HTTP Server",
+      "file": "logos/httpd.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "influxdb": {
+      "name": "InfluxDB",
+      "file": "logos/influxdb.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "jaeger": {
+      "name": "Jaeger",
+      "file": "logos/jaeger.svg",
+      "colour": "mono",
+      "hex": "#66CFE3",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "jellyfin": {
+      "name": "Jellyfin",
+      "file": "logos/jellyfin.svg",
+      "colour": "mono",
+      "hex": "#00A4DC",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "jenkins": {
+      "name": "Jenkins",
+      "file": "logos/jenkins.svg",
+      "colour": "mono",
+      "hex": "#D24939",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "jetty": {
+      "name": "Eclipse Jetty",
+      "file": "logos/jetty.svg",
+      "colour": "mono",
+      "hex": "#FC390E",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "joomla": {
+      "name": "Joomla",
+      "file": "logos/joomla.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "julia": {
+      "name": "Julia",
+      "file": "logos/julia.svg",
+      "colour": "full",
+      "hex": "#9558B2",
+      "source": "theSVG",
+      "license": "CC0-1.0"
+    },
+    "jupyter": {
+      "name": "Jupyter",
+      "file": "logos/jupyter.svg",
+      "colour": "mono",
+      "hex": "#F37626",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "k3s": {
+      "name": "K3s",
+      "file": "logos/k3s.svg",
+      "colour": "mono",
+      "hex": "#FFC61C",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "kafka": {
+      "name": "Apache Kafka",
+      "file": "logos/kafka.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "keycloak": {
+      "name": "Keycloak",
+      "file": "logos/keycloak.svg",
+      "colour": "mono",
+      "hex": "#4D4D4D",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "kibana": {
+      "name": "Kibana",
+      "file": "logos/kibana.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "kong": {
+      "name": "Kong",
+      "file": "logos/kong.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "kotlin": {
+      "name": "Kotlin",
+      "file": "logos/kotlin.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "kubernetes": {
+      "name": "Kubernetes",
+      "file": "logos/kubernetes.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "langfuse": {
+      "name": "Langfuse",
+      "file": "logos/langfuse.svg",
+      "colour": "full",
+      "hex": "#000",
+      "source": "theSVG",
+      "license": "MIT"
+    },
+    "logstash": {
+      "name": "Logstash",
+      "file": "logos/logstash.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "mailpit": {
+      "name": "Mailpit",
+      "file": "logos/mailpit.svg",
+      "colour": "full",
+      "hex": "#00B786",
+      "source": "theSVG",
+      "license": "MIT"
+    },
+    "mariadb": {
+      "name": "MariaDB",
+      "file": "logos/mariadb.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "matomo": {
+      "name": "Matomo",
+      "file": "logos/matomo.svg",
+      "colour": "mono",
+      "hex": "#3152A0",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "mattermost": {
+      "name": "Mattermost",
+      "file": "logos/mattermost.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "maven": {
+      "name": "Apache Maven",
+      "file": "logos/maven.svg",
+      "colour": "mono",
+      "hex": "#C71A36",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "meilisearch": {
+      "name": "Meilisearch",
+      "file": "logos/meilisearch.svg",
+      "colour": "mono",
+      "hex": "#FF5CAA",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "memcached": {
+      "name": "Memcached",
+      "file": "logos/memcached.svg",
+      "colour": "full",
+      "hex": "#2A9790",
+      "source": "theSVG",
+      "license": "MIT"
+    },
+    "metabase": {
+      "name": "Metabase",
+      "file": "logos/metabase.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "milvus": {
+      "name": "Milvus",
+      "file": "logos/milvus.svg",
+      "colour": "mono",
+      "hex": "#00A1EA",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "minio": {
+      "name": "MinIO",
+      "file": "logos/minio.svg",
+      "colour": "mono",
+      "hex": "#C72E49",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "mongodb": {
+      "name": "MongoDB",
+      "file": "logos/mongodb.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "mosquitto": {
+      "name": "Eclipse Mosquitto",
+      "file": "logos/mosquitto.svg",
+      "colour": "mono",
+      "hex": "#3C5280",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "mysql": {
+      "name": "MySQL",
+      "file": "logos/mysql.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "n8n": {
+      "name": "n8n",
+      "file": "logos/n8n.svg",
+      "colour": "mono",
+      "hex": "#EA4B71",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "nats": {
+      "name": "NATS.io",
+      "file": "logos/nats.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "neo4j": {
+      "name": "Neo4j",
+      "file": "logos/neo4j.svg",
+      "colour": "mono",
+      "hex": "#4581C3",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "nextcloud": {
+      "name": "Nextcloud",
+      "file": "logos/nextcloud.svg",
+      "colour": "mono",
+      "hex": "#0082C9",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "nexus": {
+      "name": "Sonatype Nexus",
+      "file": "logos/nexus.svg",
+      "colour": "mono",
+      "hex": "#1B1C30",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "nginx": {
+      "name": "NGINX",
+      "file": "logos/nginx.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "nixos": {
+      "name": "NixOS",
+      "file": "logos/nixos.svg",
+      "colour": "mono",
+      "hex": "#5277C3",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "node": {
+      "name": "Node.js",
+      "file": "logos/node.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "nomad": {
+      "name": "Nomad",
+      "file": "logos/nomad.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "odoo": {
+      "name": "Odoo",
+      "file": "logos/odoo.svg",
+      "colour": "mono",
+      "hex": "#714B67",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "ollama": {
+      "name": "Ollama",
+      "file": "logos/ollama.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "open-webui": {
+      "name": "Open WebUI",
+      "file": "logos/open-webui.svg",
+      "colour": "full",
+      "hex": "#3ECC5F",
+      "source": "theSVG",
+      "license": "MIT"
+    },
+    "openjdk": {
+      "name": "OpenJDK",
+      "file": "logos/openjdk.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "opensearch": {
+      "name": "OpenSearch",
+      "file": "logos/opensearch.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "opensuse": {
+      "name": "openSUSE",
+      "file": "logos/opensuse.svg",
+      "colour": "mono",
+      "hex": "#73BA25",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "opentelemetry": {
+      "name": "OpenTelemetry",
+      "file": "logos/opentelemetry.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "perl": {
+      "name": "Perl",
+      "file": "logos/perl.svg",
+      "colour": "mono",
+      "hex": "#0073A1",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "php": {
+      "name": "PHP",
+      "file": "logos/php.svg",
+      "colour": "mono",
+      "hex": "#777BB4",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "phpmyadmin": {
+      "name": "phpMyAdmin",
+      "file": "logos/phpmyadmin.svg",
+      "colour": "mono",
+      "hex": "#6C78AF",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "pihole": {
+      "name": "Pi-hole",
+      "file": "logos/pihole.svg",
+      "colour": "mono",
+      "hex": "#96060C",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "plex": {
+      "name": "Plex",
+      "file": "logos/plex.svg",
+      "colour": "mono",
+      "hex": "#EBAF00",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "portainer": {
+      "name": "Portainer",
+      "file": "logos/portainer.svg",
+      "colour": "mono",
+      "hex": "#13BEF9",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "postgresql": {
+      "name": "PostgreSQL",
+      "file": "logos/postgresql.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "prometheus": {
+      "name": "Prometheus",
+      "file": "logos/prometheus.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "pulsar": {
+      "name": "Apache Pulsar",
+      "file": "logos/pulsar.svg",
+      "colour": "mono",
+      "hex": "#188FFF",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "python": {
+      "name": "Python",
+      "file": "logos/python.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "pytorch": {
+      "name": "PyTorch",
+      "file": "logos/pytorch.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "qdrant": {
+      "name": "Qdrant",
+      "file": "logos/qdrant.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "r": {
+      "name": "R",
+      "file": "logos/r.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "rabbitmq": {
+      "name": "RabbitMQ",
+      "file": "logos/rabbitmq.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "redis": {
+      "name": "Redis",
+      "file": "logos/redis.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "redmine": {
+      "name": "Redmine",
+      "file": "logos/redmine.svg",
+      "colour": "mono",
+      "hex": "#B32024",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "rocket-chat": {
+      "name": "Rocket.Chat",
+      "file": "logos/rocket-chat.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "rocky-linux": {
+      "name": "Rocky Linux",
+      "file": "logos/rocky-linux.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "ruby": {
+      "name": "Ruby",
+      "file": "logos/ruby.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "rust": {
+      "name": "Rust",
+      "file": "logos/rust.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "scala": {
+      "name": "Scala",
+      "file": "logos/scala.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "searxng": {
+      "name": "SearXNG",
+      "file": "logos/searxng.svg",
+      "colour": "mono",
+      "hex": "#3050FF",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "sentry": {
+      "name": "Sentry",
+      "file": "logos/sentry.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "solr": {
+      "name": "Apache Solr",
+      "file": "logos/solr.svg",
+      "colour": "mono",
+      "hex": "#D9411E",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "sonarqube": {
+      "name": "SonarQube Server",
+      "file": "logos/sonarqube.svg",
+      "colour": "mono",
+      "hex": "#126ED3",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "spark": {
+      "name": "Apache Spark",
+      "file": "logos/spark.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "sqlite": {
+      "name": "SQLite",
+      "file": "logos/sqlite.svg",
+      "colour": "mono",
+      "hex": "#003B57",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "strapi": {
+      "name": "Strapi",
+      "file": "logos/strapi.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "supabase": {
+      "name": "Supabase",
+      "file": "logos/supabase.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "superset": {
+      "name": "Apache Superset",
+      "file": "logos/superset.svg",
+      "colour": "mono",
+      "hex": "#20A6C9",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "surrealdb": {
+      "name": "SurrealDB",
+      "file": "logos/surrealdb.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "swagger": {
+      "name": "Swagger",
+      "file": "logos/swagger.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "swift": {
+      "name": "Swift",
+      "file": "logos/swift.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "temporal": {
+      "name": "Temporal",
+      "file": "logos/temporal.svg",
+      "colour": "mono",
+      "hex": "#000000",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "temurin": {
+      "name": "Eclipse Adoptium",
+      "file": "logos/temurin.svg",
+      "colour": "mono",
+      "hex": "#FF1464",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "tensorflow": {
+      "name": "TensorFlow",
+      "file": "logos/tensorflow.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "terraform": {
+      "name": "Terraform",
+      "file": "logos/terraform.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "timescale": {
+      "name": "Timescale",
+      "file": "logos/timescale.svg",
+      "colour": "mono",
+      "hex": "#FDB515",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "tomcat": {
+      "name": "Apache Tomcat",
+      "file": "logos/tomcat.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "traefik": {
+      "name": "Traefik Proxy",
+      "file": "logos/traefik.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "ubuntu": {
+      "name": "Ubuntu",
+      "file": "logos/ubuntu.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "uptime-kuma": {
+      "name": "Uptime Kuma",
+      "file": "logos/uptime-kuma.svg",
+      "colour": "mono",
+      "hex": "#5CDD8B",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "vault": {
+      "name": "Vault",
+      "file": "logos/vault.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    },
+    "vaultwarden": {
+      "name": "Vaultwarden",
+      "file": "logos/vaultwarden.svg",
+      "colour": "mono",
+      "hex": "#000000",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    "wordpress": {
+      "name": "WordPress",
+      "file": "logos/wordpress.svg",
+      "colour": "full",
+      "source": "SVG Logos",
+      "license": "CC0-1.0"
+    }
+  }
+}
